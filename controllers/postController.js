@@ -1,5 +1,5 @@
 const Post = require("../models/Post");
-const User = require("../models/user");
+const User = require("../models/User");
 const Group = require("../models/Group");
 const AppError = require("../utils/AppError");
 const imagekit = require("../config/imagekit");
