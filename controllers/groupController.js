@@ -1,5 +1,5 @@
 const Group = require("../models/Group");
-const User = require("../models/user");
+const User = require("../models/User");
 const AppError = require("../utils/AppError");
 
 const createGroup = async (
