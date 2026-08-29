@@ -8,7 +8,10 @@ connectDB()
         console.log("MongoDB connected");
     })
     .catch((error) => {
-        console.error("MongoDB connection error:", error);
+        console.error(
+            "Failed to connect to MongoDB:",
+            error.message
+        );
     });
 
 module.exports = app;
